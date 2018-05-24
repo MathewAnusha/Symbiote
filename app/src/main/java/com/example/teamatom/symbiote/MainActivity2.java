@@ -41,7 +41,7 @@ public class MainActivity2 extends AppCompatActivity {
         third.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent j = new Intent(MainActivity2.this, enterAct.class);
+                Intent j = new Intent(MainActivity2.this, profile.class);
                 startActivity(j);
             }
         });
